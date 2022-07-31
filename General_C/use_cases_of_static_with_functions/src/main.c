@@ -20,7 +20,9 @@ int main()
 
 /*
  * If we only want to be able to call this function from within the main.c file
- * we need to use the 'static' keyword in front of the function
+ * we need to use the 'static' keyword in front of the function.
+ *
+ * A static function is also known as a private function
  */
 static void change_system_clock(int system_clock)
 {
