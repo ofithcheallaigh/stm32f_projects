@@ -12,5 +12,9 @@ int main(void)
     printf("Division: %0.2f\n", maths_div(100,8)); // The 0.2 sets the nuber of decimal places
 
     return 0;
+<<<<<<< HEAD
 }
 
+=======
+}
+>>>>>>> 0d54fd63cad46341bb6ed838ac655bcd78c9a4d3
