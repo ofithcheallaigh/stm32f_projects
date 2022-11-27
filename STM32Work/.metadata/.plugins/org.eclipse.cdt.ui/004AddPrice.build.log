@@ -1,0 +1,10 @@
+18:48:47 **** Incremental Build of configuration Debug for project 004AddPrice ****
+make -j12 all 
+arm-none-eabi-size   004AddPrice.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23908	    476	   1588	  25972	   6574	004AddPrice.elf
+Finished building: default.size.stdout
+ 
+
+18:48:47 Build Finished. 0 errors, 0 warnings. (took 185ms)
+

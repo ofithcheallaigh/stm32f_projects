@@ -1,0 +1,27 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 26, 2022
+ *      Author: ofith
+ */
+#include <stdio.h>
+int main(void)
+{
+	float number1, number2, number3;
+	float average;
+
+	printf("Enter the first number:\n");
+	scanf("%f", &number1);
+	printf("Enter the second number:\n");
+	scanf("%f", &number2);
+	printf("Enter the third number:\n");
+	scanf("%f", &number3);
+
+	average = (number1 + number2 + number3)/3;
+
+	printf("The average is: %f\n", average);
+
+}
+
+
+

@@ -1,0 +1,25 @@
+/*
+ * main.c
+ *
+ *  Created on: 27 Nov 2022
+ *      Author: ofith
+ */
+
+#include <stdio.h>
+
+int main(void)
+{
+	char c1, c2, c3, c4, c5, c6;
+
+	printf("Enter any 6 characters of your choice: ");
+	scanf("%c %c %c %c %c %c", &c1, &c2, &c3, &c4, &c5, &c6);
+
+	printf("\nASCII Codes: %p, %p, %p, %p, %p, %p, %p", c1, c2, c3, c4, c5, c6);
+
+	printf("\nPress the enter key to exit the application\n");
+	while(getchar() != '\n')
+	{
+		// wait here until condition met
+	}
+	getchar();
+}
